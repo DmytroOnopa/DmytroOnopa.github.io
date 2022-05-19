@@ -13,12 +13,17 @@
   <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   <hr>
   <form method="post" action="https://send.pageclip.co/zmxneRvjJZUOtTPPMSCbiVN0OAP2t1Dc/Subscribe">
-    <input type="text" name="name" value="Billy Jean"/>
-    <input type="text" name="email" value="billy@example.com"/>
-    <select name="heardFrom">
+<!-- text field -->
+	<select name="heardFrom">
       <option value="ph" selected>Product Hunt</option>
       <option value="hn">Hacker News</option>
     </select>
+	<input type="text" name="name" value="Billy Jean"/>
+    <input type="text" name="email" value="billy@example.com"/>
+<!-- radio buttons -->
+    <input type="radio" name="animal" value="tarantula" id="tarantula" checked/>
+    <label htmlFor="tarantula">Tarantula</label>
+<!-- button -->	
 	<button type="submit" class="pageclip-form__submit">
       <span>Send</span>
     </button>
