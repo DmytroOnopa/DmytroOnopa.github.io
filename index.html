@@ -15,7 +15,11 @@
   <form method="post" action="https://send.pageclip.co/zmxneRvjJZUOtTPPMSCbiVN0OAP2t1Dc/Subscribe">
     <input type="text" name="name" value="Billy Jean"/>
     <input type="text" name="email" value="billy@example.com"/>
-    <button type="submit" class="pageclip-form__submit">
+    <select name="heardFrom">
+      <option value="ph" selected>Product Hunt</option>
+      <option value="hn">Hacker News</option>
+    </select>
+	<button type="submit" class="pageclip-form__submit">
       <span>Send</span>
     </button>
   </form>
