@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@pageclip/valid-form": "^1.1.1"
+  }
+}
