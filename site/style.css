@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0 0 30px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  padding: 40px 0 10px 0;
+  text-align: center;
+}
+
+.navbar__brand img {
+  height: 23px;
+}
+
+.example-form {
+  padding: 20px;
+  border: 2px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.example-title {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+select,
+input,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+form .form-control {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 2px solid #ddd;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 3px;
+  background: white;
+}
+
+form .form-control:focus {
+  border-color: #444;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-group label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form .form-group .form-control {
+  margin-bottom: 0;
+}
+
+button {
+  background: #ddd;
+  color: black;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
