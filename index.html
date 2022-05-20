@@ -42,12 +42,13 @@
 	</button>
   <hr>
   <figure>
-    <img src="images/test.jpg"
-         alt="This is test image;
-              it has testing character"
-         width="1500"
-         height="929">
-
+    <img srcset="elva-fairy-320w.jpg 320w,
+             	 elva-fairy-480w.jpg 480w,
+            	 elva-fairy-800w.jpg 800w"
+         sizes="(max-width: 320px) 280px,
+                (max-width: 480px) 440px,
+                800px"
+		 src="images/test.jpg" alt="This is test image and has testing character">
     <figcaption>The element represents a caption or legend describing
 				the rest of the contents of its parent figure element.</figcaption>
   </figure>	
