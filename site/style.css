@@ -44,8 +44,8 @@ body {
 select,
 input,
 textarea {
-  -webkit-appearance: none;
-  appearance: none;
+  -webkit-appearance: button;
+  appearance: button;
 }
 
 form .form-control {
