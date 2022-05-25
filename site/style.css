@@ -91,4 +91,5 @@ img {
     aspect-ratio: 1;
     width: 300px;
     object-view-box: inset(25% 20% 15% 0%);
+    object-fit: cover;
 }
