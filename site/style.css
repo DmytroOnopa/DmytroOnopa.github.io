@@ -15,7 +15,11 @@ body {
 
 .pageName {
 	font-size: 200%;
+<<<<<<< HEAD
 	color: olivedrab;
+=======
+	color: green;
+>>>>>>> a001d62723b4bc1f9cfce107eee9b439cc19a360
 }
 
 .container {
